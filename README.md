@@ -4,13 +4,13 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Bruno Matoba
+- Caio
+- Felipe
 
 ## Resumo
 
-Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
+Um robô cão guia, que auxilia o deficiente visual. Ele passara a 
 
 ## Introdução
 
