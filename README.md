@@ -21,7 +21,7 @@ Um robô cão guia, que auxilia o deficiente visual. Ele passara a
 
 ## Publico Alvo
 
-- Determine o seu público alvo:
+- Determine o seu público alvo: 
 
 ### Personas
 
@@ -36,14 +36,56 @@ Um robô cão guia, que auxilia o deficiente visual. Ele passara a
 
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com o robô.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação robô. Quais expectativas o usuário cria sobre o robô?
-  Que tipo de robô mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o robô. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o robô satisfaz?
+  ## Mapa de Empatia do Cão Guia
+   
+  ## Persona Primaria
+  O que ele Pensa e Sente? : o que realmente conta, principais preocupações e aspirações.
+  - O usuário sente-se seguro enquanto está utilizando o cão guia para auxílio durante a locomoção em ambientes externos,  de modo que o usuário fique calmo, não ansioso em lugar desconhecido ou não tem costume de passar por lá.
+
+  O que ele Escuta? : o que amigos dizem, o que o chefe fala, o que influenciadores dizem.
+  - Sons de carros, buzinas, passos de pessoas, alertas sonoros do robô sobre obstáculos, mudanças de direção ou travessia de ruas.
+  
+  O que ele vê? : ambiente, amigos, o que o mercado oferece.
+  - O usuário percebe obstáculos pelo toque, sons do ambiente e sinais do robô.
+    
+ O que ele Fala e Faz? : atitude em público, aparência, comportamento com outros.
+  - Dá comandos ao robô (“vire à esquerda ou vire à direita”, “pare”), segue o robô com confiança.
+
+ Dor: medos, frustações, obstáculos?
+  - Medo de acidentes, dificuldade de locomoção em locais desconhecidos, sinais do robô confusos.
+
+ Ganhos: desejos e necessidades, formas de medir sucesso, obstáculos?
+  - Maior autonomia, confiança ao caminhar “sozinho”, facilidade para navegar em ambientes variados.
+
+## Persona Secundária
+O que ele Pensa e Sente? : o que realmente conta, principais preocupações e aspirações.
+  - Quer que o usuário seja seguro, independente e confortável.
+  - Preocupa-se com a confiabilidade do robô.
+  - Acompanha passeios iniciais.
+  - Fornece suporte em caso de emergência.
+    
+O que ele Escuta? : o que amigos dizem, o que o chefe fala, o que influenciadores dizem.
+  - Comentários de amigos e familiares sobre segurança do usuário.
+  - Preocupa-se com a confiabilidade do robô.
+
+O que ele vê? : ambiente, amigos, o que o mercado oferece.
+  - Monitora a segurança e a eficiência da navegação.
+  - Observa o usuário interagindo com o robô.
+
+O que ele Fala e Faz? : atitude em público, aparência, comportamento com outros.
+  - Robô seguro, confiável e fácil de utilizar.
+  - Alertas  sobre obstáculos e falhas.
+  - Sistema de monitoramento remoto.
+
+Dor: medos, frustações, obstáculos?
+  - Insegurança sobre a autonomia do usuário.
+  - Dificuldade de monitoramento remoto.  
+
+Ganhos: desejos e necessidades, formas de medir sucesso, obstáculos?
+  - Segurança para o usuário.
+  - Redução da necessidade de acompanhamento constante.
+
+
 
 ## Contexto de uso
 
@@ -62,12 +104,30 @@ Um robô cão guia, que auxilia o deficiente visual. Ele passara a
 
 ## Análise de concorrência
 
-- Pesquise robôs existentes atualmente que possam fazer a tarefa deste projeto.
-- Selecione pelo menos 3 robôs diferentes que podem fazer essa tarefa.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
+1. Glide (Glidance – EUA)
+
+É um dispositivo autônomo de mobilidade feito especialmente para cegos ou pessoas com baixa visão. Ele funciona como uma espécie de carrinho que a pessoa segura e o robô vai guiando, desviando de obstáculos, degraus e portas, tanto em ambientes internos quanto externos.
+	•	Pontos fortes: alternativa prática ao cão-guia, já com pré-venda internacional, preço mais acessível que um cão real (cerca de US$ 1.499), interface amigável.
+	•	Limitações: ainda em fase inicial de comercialização, autonomia de bateria limitada, pode ter dificuldades em terrenos irregulares.
+
+2. Lysa (Brasil – Vix Systems)
+
+É um robô guia brasileiro, parecido com uma pequena mala com rodas e uma alça. O usuário segura a alça e o robô vai à frente, detectando obstáculos, buracos no chão e até obstáculos aéreos. Pesa cerca de 4 kg e tem autonomia de uso de 6 horas.
+	•	Pontos fortes: feito pensando na realidade brasileira, mais leve e portátil, desenvolvido para uso cotidiano.
+	•	Limitações: ainda em desenvolvimento, custo de produção pode ser alto, pouca difusão no mercado.
+
+
+3. RoboGuide (Universidade de Glasgow, Escócia)
+
+Projeto acadêmico em parceria com instituições de apoio a deficientes visuais. É um robô que funciona como um “cão guia artificial”, utilizando sensores e câmeras para guiar o usuário em ambientes internos.
+	•	Pontos fortes: apoio institucional forte, custo de produção estimado menor que um cão real, já com protótipos funcionais.
+	•	Limitações: ainda restrito a ambientes internos, não foi amplamente comercializado, depende de mapas e infraestrutura para melhor desempenho.
+
+4. Robô cão-guia da China (Universidade Jiao Tong, Shanghai)
+
+Um robô de seis patas inspirado em cães, equipado com sensores, reconhecimento de semáforos e planejamento de rotas com inteligência artificial. A ideia é que ele consiga guiar usuários em ambientes urbanos complexos.
+	•	Pontos fortes: alta estabilidade por ter seis patas, reconhecimento de sinais de trânsito, projeto ambicioso para uso urbano.
+	•	Limitações: ainda em fase de testes, custo de desenvolvimento elevado, peso e portabilidade são desafios.
 
 ## Design
 
