@@ -143,33 +143,63 @@ Um robô de seis patas inspirado em cães, equipado com sensores, reconhecimento
 
 ## Ações do robô
 
-- Para cada ação:
-  - Descreva a ação.
-  - Determine os pré-requisitos para que a ação aconteça
-  - Determine o que se espera que seja modificado no ambiente quando a ação é finalizada
+-Detecta e desvia de obstáculos para conduzir o usuário com segurança.
+-Para próximo de faixas de pedestre e sinaliza quando é seguro atravessar.
+-Indica direções por som para orientar mudanças de caminho.
+-Sinaliza com luzes ou sons que está guiando uma pessoa com deficiência visual, aumentando a segurança ao redor.
 
 ## Interações do robô
 
 ### Espacial
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+Interação 1 – Desvio de Obstáculo
+	Descrição: O robô detecta um obstáculo à frente e muda de rota suavemente, guiando o usuário com segurança.
+	Pré-requisitos:
+		-Sensores funcionando (LIDAR, câmeras ou ultrassom).
+		-Mapeamento do ambiente ativo.
+		-Usuário segurando a guia do robô.
+	Resposta emocional: Usuário sente confiança, alívio e segurança por não precisar se  preocupar em desviar e sim seguir o guia.
+	
+Interação 2 – Parada em Faixa de Pedestre
+	Descrição: O robô identifica a faixa de pedestre, para e sinaliza ao usuário que é seguro atravessar.
+	Pré-requisitos:
+		-Detecção correta de faixas e semáforos.
+		-Algoritmo de decisão sobre travessia.
+	Resposta emocional: Usuário sente segurança, autonomia e tranquilidade.
 
 ### Verbal
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+Interação 1 – Comando “Ir para casa”
+	Descrição: O usuário diz “Ir para casa” e o robô calcula a rota e guia até o destino.
+	Pré-requisitos:
+		-O	Sistema de reconhecimento de voz ativo.
+		-O	GPS ou mapa do trajeto armazenado.
+	Resposta emocional: Usuário sente autonomia, satisfação e praticidade.
+	
+Interação 2 – Alerta verbal de obstáculo
+	Descrição: O robô anuncia “Obstáculo à frente” em voz clara.
+	Pré-requisitos:
+		-Sensores detectando obstáculos em tempo real.
+		-Sistema de síntese de fala funcional.
+	Resposta emocional: Usuário sente atenção reforçada e confiança no robô.
+
 
 ### Não-verbal
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+Interação 1 – Vibração para mudança de direção
+	Descrição: O robô vibra na alça ou guia para indicar que vai virar à esquerda ou direita.
+	Pré-requisitos:
+		-Motor de vibração funcionando.
+		-Mapeamento do caminho previamente calculado.
+		-Resposta emocional: Usuário sente clareza nas instruções, reduz ansiedade e aumenta confiança.
+
+Interação 2 – Luz indicadora para terceiros
+	Descrição: O robô acende uma luz de alerta (LED) para sinalizar que está guiando um deficiente visual.
+	Pré-requisitos:
+		-Sistema de LEDs instalado.
+		-Energia suficiente na bateria.
+		-Resposta emocional: Usuário sente-se protegido, aumentando sua sensação de segurança.
+
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
