@@ -10,7 +10,7 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Resumo
 
-Um robô cão guia, que auxilia o deficiente visual. Ele passara a 
+Um robô cão guia, que auxilia o deficiente visual no dia a dia e passar segurança de modo que o usuário sinta-se a vontade em locomover em um ambiente externo sem necessariamente precisar de um ajudante. 
 
 ## Introdução
 
@@ -21,16 +21,26 @@ Um robô cão guia, que auxilia o deficiente visual. Ele passara a
 
 ## Publico Alvo
 
-- Determine o seu público alvo: 
+- Voltado para pessoas que tem deficiência visual e precisa de ajuda para se locomover em um ambiente externo.
 
 ### Personas
 
-- Descreva as personas que irão interagir com o robô. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o robô deve saber antes de iniciar a tarefa?
+Persona Primária – Usuário com deficiência visual
+	-Pessoa cega ou com baixa visão que quer se locomover com autonomia.
+	-Usa tecnologias auxiliar no dia a dia.
+	-Vive em áreas urbanas com tráfego intenso.
+	-Robô precisa saber: grau de deficiência, preferências de feedback, destino ou rota desejada.
+	
+Persona Secundária – Cuidador/Familiar
+	-Auxilia o usuário cego, preocupado com sua segurança.
+	-Quer confiabilidade e monitoramento remoto.
+	-Tem rotina que nem sempre permite acompanhar o usuário.
+	-Robô precisa saber: contatos de emergência e permissões de notificações.
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+Outras Personas – Pedestres/Agentes Externos
+	-Pessoas que circulam no mesmo ambiente.
+	-Precisam perceber que o robô está guiando um deficiente visual.
+	-Robô precisa apenas sinalizar visual/sonoramente que está em serviço.	
 
 ### Mapa de empatia
 
